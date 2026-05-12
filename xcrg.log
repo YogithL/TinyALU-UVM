@@ -1,0 +1,35 @@
+
+INFO: No databases mentioned using -cov_db_name option. This may lead to restoring and merging of all databases mentioned in -cov_db_dir option. Please pass database names using -cov_db_name option to use only intended databases for merging.
+
+ Options Set are : 
+
+   Command Line               : xcrg -dir ./UVM_Primer.sim/sim_1/behav/xsim/ -report_dir ./cov_report -report_format html
+   Report Format              : html
+   Log File                   : xcrg.log
+   Functional Coverage Dir[s] : ./UVM_Primer.sim/sim_1/behav/xsim/
+
+
+
+********************************************************
+                  Functional Coverage Report 
+********************************************************
+
+ Restoring Functional Coverage DB[s] from : 
+  1	./UVM_Primer.sim/sim_1/behav/xsim\xsim.covdb\top_behav\xsim.covinfo
+  2	./UVM_Primer.sim/sim_1/behav/xsim\xsim.dir\top_behav\xsim.covinfo
+
+ Functional Coverage Merge Directory              : .
+ Functional Coverage Merge DB                     : xcrg_mergedDB
+ Saving the Merged Functional Coverage Info at    : ./xsim.covdb/xcrg_mergedDB/xsim.covinfo
+ Created Coverage Report Directory    : ./cov_report/functionalCoverageReport
+
+ Functional Coverage HTML Report directory        : ./cov_report/functionalCoverageReport
+
+ Creating dashboard.html 
+
+ Creating groups.html 
+
+ Creating grp0.html 
+
+ Creating grp1.html 
+

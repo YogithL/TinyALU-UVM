@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Error: Failed: A: 2d | B: 48 | OP: add_op | Result: 75
+Time: 185 ns  Iteration: 1  Process: /top/Always153_9  Scope: top.Block153_10  File: C:/Users/lyogi/Downloads/UVM_Primer/UVM_Primer.srcs/sources_1/new/TB_V1.sv Line: 164
+Error: Failed: A: d2 | B: 96 | OP: add_op | Result: 168
+Time: 425 ns  Iteration: 1  Process: /top/Always153_9  Scope: top.Block153_10  File: C:/Users/lyogi/Downloads/UVM_Primer/UVM_Primer.srcs/sources_1/new/TB_V1.sv Line: 164
+Error: Failed: A: ef | B: a8 | OP: add_op | Result: 197
+Time: 645 ns  Iteration: 1  Process: /top/Always153_9  Scope: top.Block153_10  File: C:/Users/lyogi/Downloads/UVM_Primer/UVM_Primer.srcs/sources_1/new/TB_V1.sv Line: 164
