@@ -153,7 +153,7 @@ module top();
     always @(posedge done) begin
         bit signed[15:0] prediction;
            case(op_set)                    
-              add_op: prediction = A - B;          
+              add_op: prediction = A + B;          
               and_op: prediction = A & B;  
               xor_op: prediction = A ^ B;  
               mul_op: prediction = A * B;  
