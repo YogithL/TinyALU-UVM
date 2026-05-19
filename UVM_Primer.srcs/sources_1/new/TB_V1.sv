@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+import tinyalu_pkg::*;
 
 function operation_e getOp();
     operation_e op;
