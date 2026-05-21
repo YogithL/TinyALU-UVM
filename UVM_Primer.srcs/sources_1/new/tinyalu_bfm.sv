@@ -9,7 +9,7 @@ interface tinyalu_bfm;
     operation_e op_set;
     
     wire[2:0] op;
-        assign op = opset;
+        assign op = op_set;
     wire done;
     wire[15:0] result;
     
@@ -23,10 +23,10 @@ interface tinyalu_bfm;
     endtask: reset_alu
     
     task sendOp(input byte iA, input byte iB, 
-                input operation iop, 
+                input operation_e iop, 
                 output shortint alu_result);
         
-        assign iop = op;
+        op_set = operation_e'(iop);
         
         if(op == rst_op) begin
             @(posedge clk);
@@ -58,7 +58,8 @@ interface tinyalu_bfm;
             end
         end
     endtask: sendOp
-        
+
+endinterface       
         
 
 

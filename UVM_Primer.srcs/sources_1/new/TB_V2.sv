@@ -139,7 +139,7 @@ endmodule: tester
 
 
 
-module top();
+module top2();
 
    tinyalu_bfm bfm();
    tester tester_i (bfm);
@@ -149,7 +149,7 @@ module top();
    tinyalu DUT(.A(bfm.A), .B(bfm.B), .op(bfm.op), 
                 .clk(bfm.clk), .reset_n(bfm.reset_n), 
                 .start(bfm.start), .done(bfm.done), .result(bfm.result));
-endmodule: top
+endmodule: top2
 
     
 

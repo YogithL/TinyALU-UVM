@@ -49,7 +49,7 @@ class coverage;
         }
     endgroup
     
-    function new(tinyalu_bfm b);
+    function new(virtual tinyalu_bfm b);
         aluOpps = new();
         data = new();
         bfm = b;
@@ -58,9 +58,10 @@ class coverage;
     task exec();
       forever begin: sampling_block
          @(negedge bfm.clk);
+         #1;
          A = bfm.A;
          B = bfm.B;
-         op_set = bfm.op_set;
+         opset = bfm.op_set;
          aluOpps.sample();
          data.sample();
       end: sampling_block
